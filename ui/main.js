@@ -4,8 +4,9 @@ img.onclick = function() {
     img.style.marginLeft = "100px";
     };
     
-    counter = 0;
+   
     var button = document.getElementById("counter");
+    counter = 0;
     button.onclick = function()
     {
         counter = counter + 1;
